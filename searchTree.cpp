@@ -58,3 +58,8 @@ public:
     {
         currentNode = ROOT;
         parent = NULL;
+
+        while ((currentNode != NULL) &&
+               (currentNode->info != element))
+        {
+            parent = currentNode;
