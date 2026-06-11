@@ -85,3 +85,4 @@ public:
             inorder(ptr->rightchild);
         }
     }
+    void postorder(Node *ptr)
