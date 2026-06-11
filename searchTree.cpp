@@ -27,14 +27,15 @@ public:
 
     void insert(string element)
     {
-        {
-            Node *newNode = new Node(element, NULL, NULL);
 
-            newNode->info = element;
-            newNode->leftchild = NULL;
-            newNode->rightchild = NULL;
+        Node *newNode = new Node(element, NULL, NULL);
 
-            Node *parent = NULL;
-            Node *currentNode = NULL;
-        }
+        newNode->info = element;
+        newNode->leftchild = NULL;
+        newNode->rightchild = NULL;
+
+        Node *parent = NULL;
+        Node *currentNode = NULL;
+
+        search(element, parent, currentNode);
     }
