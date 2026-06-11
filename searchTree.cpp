@@ -24,4 +24,6 @@ public:
     {
         root = null; // initializingroot to nul
     }
+
+    void insert(string element)
 }
